@@ -1,0 +1,30 @@
+project:
+  type: website
+
+website:
+  title: "edsl-web"
+  twitter-card: true
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: people.qmd
+        text: People
+      - href: research.qmd
+        text: Research
+      - href: posts.qmd
+        text: Posts
+  page-footer:  
+    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)
+      
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    highlight-style: espresso
+    
+theme:
+  light: flatly
+  dark: darkly
+  

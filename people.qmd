@@ -1,0 +1,18 @@
+---
+title: "People"
+---
+
+The EDSL research group is comprised of faculty members, graduate students, and undergraduates across campus.
+
+## Faculty members
+
+- [Katherine Wagner](https://krhwagner.com/)
+- [Jonathan Proctor](https://www.jonathanproctor.org/)
+- [Patrick Baylis](https://www.patrickbaylis.com/)
+- [Sumeet Gulati](https://sumeetgulati.landfood.ubc.ca/)
+
+## Ph.D. students
+
+## Masters students
+
+## Undergraduate students

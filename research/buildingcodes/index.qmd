@@ -1,0 +1,16 @@
+---
+title: "Mandated vs. Voluntary Adaptation to Natural Disasters: The Case of U.S. Wildfires"
+author: "Patrick Baylis and Judson Boomhower"
+date: "2022-11-04"
+categories: [wildfires]
+image: "mainfig.png"
+links:
+- name: NBER Working Paper
+  url: https://www.nber.org/papers/w29621
+---
+
+<!-- Link doesn't work yet.-->
+
+[NBER Working Paper](https://www.nber.org/papers/w29621)
+
+Abstract: Despite escalating disaster losses and predicted increases in weather-related catastrophes, takeup of protective technologies and behaviors appears limited by myopia, externalities, and other factors. One response to such frictions is to mandate adaptive investment. We measure the effect of California's wildfire building codes on own- and neighboring structure survival using administrative damage and assessment data for most US homes experiencing wildfires since 2000. Differences across jurisdictions and vintages reveal remarkable resilience effects of building codes initially prompted by the deadly 1991 Oakland Firestorm. Codes also benefit neighbors. We use the results to estimate net social benefits of wildfire building standards.

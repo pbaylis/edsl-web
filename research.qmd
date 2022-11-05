@@ -1,0 +1,17 @@
+---
+title: "Research"
+listing:
+  contents: research
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  field-display-names:
+    author: "Author(s)"
+page-layout: full
+title-block-banner: true
+date-format: YYYY
+---
+
+Recent scholarly publications and work in progress from affiliated faculty and graduate students (will be) listed here.

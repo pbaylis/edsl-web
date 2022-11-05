@@ -1,0 +1,17 @@
+---
+title: "EDSL"
+---
+
+The UBC Environmental Data Science Lab (EDSL) is a collegial research group based out of the University of British Columbia. 
+
+Our projects ask how climate and related environmental hazards impact people, and how people can better respond to them. 
+
+We (do our best to) answer these questions using the tools of applied economics and data science.
+
+## Mission
+
+The first mission of the group is to provide a community and a shared set of resources for community members UBC interested in questions about how people and the environment interact.
+
+The second mission is to more precisely define the first mission. 
+
+(It's a work in progress y'all.)
