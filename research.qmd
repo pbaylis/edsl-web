@@ -14,4 +14,7 @@ title-block-banner: true
 date-format: YYYY
 ---
 
+<!-- TODO: Move file into research/ directory.-->
+<!-- TODO: Author(s) filed not displaying correctly (currently reads "Author") on page. -->
+
 Recent scholarly publications and work in progress from affiliated faculty and graduate students (will be) listed here.

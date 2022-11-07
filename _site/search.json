@@ -1,17 +1,45 @@
 [
   {
+    "objectID": "research/buildingcodes/index.html",
+    "href": "research/buildingcodes/index.html",
+    "title": "Mandated vs. Voluntary Adaptation to Natural Disasters: The Case of U.S. Wildfires",
+    "section": "",
+    "text": "Abstract: Despite escalating disaster losses and predicted increases in weather-related catastrophes, takeup of protective technologies and behaviors appears limited by myopia, externalities, and other factors. One response to such frictions is to mandate adaptive investment. We measure the effect of California’s wildfire building codes on own- and neighboring structure survival using administrative damage and assessment data for most US homes experiencing wildfires since 2000. Differences across jurisdictions and vintages reveal remarkable resilience effects of building codes initially prompted by the deadly 1991 Oakland Firestorm. Codes also benefit neighbors. We use the results to estimate net social benefits of wildfire building standards."
+  },
+  {
+    "objectID": "research/fires-hazard/index.html",
+    "href": "research/fires-hazard/index.html",
+    "title": "The Economic Incidence of Wildfire Suppression in the United States",
+    "section": "",
+    "text": "Abstract: This study measures the degree to which public expenditures on wildfire protection subsidize development in harm’s way. We use administrative data on firefighting expenditures to measure the causal effect of nearby homes on the amount spent to extinguish wildfires. We use these estimates in an actuarial calculation yielding geographically-differentiated expected implicit subsidies for homes across the Western U.S. The expected net present value of this subsidy can exceed 20% of home value, increases with fire hazard, and decreases surprisingly steeply with development density. We discuss potential behavioral responses by individuals and local governments using a simple economic model."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Mandated vs. Voluntary Adaptation to Natural Disasters: The Case of U.S. Wildfires\n\n\n\n\n\n\n\nwildfires\n\n\n\n\n\n\n\n\n\n\n\n2022\n\n\nPatrick Baylis and Judson Boomhower\n\n\n\n\n\n\n  \n\n\n\n\nThe Economic Incidence of Wildfire Suppression in the United States\n\n\n\n\n\n\n\nwildfires\n\n\n\n\n\n\n\n\n\n\n\n2022\n\n\nPatrick Baylis and Judson Boomhower\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "Since this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "EDSL",
     "section": "",
     "text": "The UBC Environmental Data Science Lab (EDSL) is a collegial research group based out of the University of British Columbia.\nOur projects ask how climate and related environmental hazards impact people, and how people can better respond to them.\nWe (do our best to) answer these questions using the tools of applied economics and data science."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "1 + 1\n\n[1] 2"
   },
   {
     "objectID": "index.html#mission",
@@ -56,45 +84,10 @@
     "text": "Undergraduate students"
   },
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
-    "section": "",
-    "text": "Mandated vs. Voluntary Adaptation to Natural Disasters: The Case of U.S. Wildfires\n\n\n\n\n\n\n\nwildfires\n\n\n\n\n\n\n\n\n\n\n\n2022\n\n\nPatrick Baylis and Judson Boomhower\n\n\n\n\n\n\n  \n\n\n\n\nThe Economic Incidence of Wildfire Suppression in the United States\n\n\n\n\n\n\n\nwildfires\n\n\n\n\n\n\n\n\n\n\n\n2022\n\n\nPatrick Baylis and Judson Boomhower\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "Since this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
     "objectID": "posts.html",
     "href": "posts.html",
     "title": "Posts",
     "section": "",
     "text": "news\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nNov 4, 2022\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nNov 1, 2022\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "research/fires-hazard/index.html",
-    "href": "research/fires-hazard/index.html",
-    "title": "The Economic Incidence of Wildfire Suppression in the United States",
-    "section": "",
-    "text": "Abstract: This study measures the degree to which public expenditures on wildfire protection subsidize development in harm’s way. We use administrative data on firefighting expenditures to measure the causal effect of nearby homes on the amount spent to extinguish wildfires. We use these estimates in an actuarial calculation yielding geographically-differentiated expected implicit subsidies for homes across the Western U.S. The expected net present value of this subsidy can exceed 20% of home value, increases with fire hazard, and decreases surprisingly steeply with development density. We discuss potential behavioral responses by individuals and local governments using a simple economic model."
-  },
-  {
-    "objectID": "research/buildingcodes/index.html",
-    "href": "research/buildingcodes/index.html",
-    "title": "Mandated vs. Voluntary Adaptation to Natural Disasters: The Case of U.S. Wildfires",
-    "section": "",
-    "text": "Abstract: Despite escalating disaster losses and predicted increases in weather-related catastrophes, takeup of protective technologies and behaviors appears limited by myopia, externalities, and other factors. One response to such frictions is to mandate adaptive investment. We measure the effect of California’s wildfire building codes on own- and neighboring structure survival using administrative damage and assessment data for most US homes experiencing wildfires since 2000. Differences across jurisdictions and vintages reveal remarkable resilience effects of building codes initially prompted by the deadly 1991 Oakland Firestorm. Codes also benefit neighbors. We use the results to estimate net social benefits of wildfire building standards."
   }
 ]

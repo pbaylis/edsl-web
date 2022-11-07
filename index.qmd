@@ -1,5 +1,5 @@
 ---
-title: "EDSL"
+title: "UBC Environmental Data Science Lab"
 ---
 
 The UBC Environmental Data Science Lab (EDSL) is a collegial research group based out of the University of British Columbia. 

@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: f3f784cf-9daf-4a81-9f94-39e86cb9947c
+      url: 'https://superb-salamander-35108f.netlify.app'

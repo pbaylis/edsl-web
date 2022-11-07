@@ -15,16 +15,15 @@ website:
       - href: posts.qmd
         text: Posts
   page-footer:  
-    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)
-      
+    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
+
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
     highlight-style: espresso
-    
+
 theme:
   light: flatly
   dark: darkly
-  

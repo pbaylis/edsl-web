@@ -2,6 +2,8 @@
 title: "People"
 ---
 
+<!-- Turn this into a custom listing page. -->
+
 The EDSL research group is comprised of faculty members, graduate students, and undergraduates across campus.
 
 ## Faculty members
