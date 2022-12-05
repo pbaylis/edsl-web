@@ -12,6 +12,3 @@ title-block-banner: true
 ---
 
 <!-- Move file into posts/ directory.-->
-
-
-

@@ -1,0 +1,11 @@
+---
+title: "Jonathan Proctor"
+categories: [faculty]
+image: "jonathan.jpg"
+---
+
+Jonathan's bio.
+
+Links to Jonathan's papers.
+
+Jonathan's contact info.

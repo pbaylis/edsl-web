@@ -1,0 +1,11 @@
+---
+title: "Sumeet Gulati"
+categories: [faculty]
+image: "sumeet.jpg"
+---
+
+Sumeet's bio.
+
+Links to Sumeet's papers.
+
+Sumeet's contact info.

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Environmental Data Science Lab - UBC Environmental Data Science Lab</title>
+<title>edsl-web - People</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -18,22 +18,24 @@ ul.task-list{list-style: none;}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -53,11 +55,41 @@ ul.task-list{list-style: none;}
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<link rel="stylesheet" href="styles.css">
-<meta name="twitter:title" content="Environmental Data Science Lab - UBC Environmental Data Science Lab">
-<meta name="twitter:description" content="The UBC Environmental Data Science Lab (EDSL) is a collegial research group based out of the University of British Columbia.">
+    const options = {
+      valueNames: [{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="../styles.css">
+<meta name="twitter:title" content="edsl-web - People">
+<meta name="twitter:description" content="The EDSL research group is comprised of faculty members, graduate students, and undergraduates across campus.">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -67,8 +99,8 @@ ul.task-list{list-style: none;}
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Environmental Data Science Lab</span>
+      <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">edsl-web</span>
   </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
@@ -76,16 +108,16 @@ ul.task-list{list-style: none;}
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page">Home</a>
+    <a class="nav-link" href="../index.html">Home</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./people.html">People</a>
+    <a class="nav-link active" href="../people/people.html" aria-current="page">People</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html">Research</a>
+    <a class="nav-link" href="../research/research.html">Research</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./posts.html">Posts</a>
+    <a class="nav-link" href="../posts/posts.html">Posts</a>
   </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
@@ -102,7 +134,10 @@ ul.task-list{list-style: none;}
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#mission" id="toc-mission" class="nav-link active" data-scroll-target="#mission">Mission</a></li>
+  <li><a href="#faculty-members" id="toc-faculty-members" class="nav-link active" data-scroll-target="#faculty-members">Faculty members</a></li>
+  <li><a href="#ph.d.-students" id="toc-ph.d.-students" class="nav-link" data-scroll-target="#ph.d.-students">Ph.D.&nbsp;students</a></li>
+  <li><a href="#masters-students" id="toc-masters-students" class="nav-link" data-scroll-target="#masters-students">Masters students</a></li>
+  <li><a href="#undergraduate-students" id="toc-undergraduate-students" class="nav-link" data-scroll-target="#undergraduate-students">Undergraduate students</a></li>
   </ul>
 </nav>
     </div>
@@ -111,7 +146,7 @@ ul.task-list{list-style: none;}
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">UBC Environmental Data Science Lab</h1>
+<h1 class="title">People</h1>
 </div>
 
 
@@ -125,19 +160,41 @@ ul.task-list{list-style: none;}
 
 </header>
 
-<p>The UBC Environmental Data Science Lab (EDSL) is a collegial research group based out of the University of British Columbia.</p>
-<p>Our projects ask how climate and related environmental hazards impact people, and how people can better respond to them.</p>
-<p>We (do our best to) answer these questions using the tools of applied economics and data science.</p>
-<section id="mission" class="level2">
-<h2 class="anchored" data-anchor-id="mission">Mission</h2>
-<p>The first mission of the group is to provide a community and a shared set of resources for community members UBC interested in questions about how people and the environment interact.</p>
-<p>The second mission is to more precisely define the first mission.</p>
-<p>(It’s a work in progress y’all.)</p>
+<p>The EDSL research group is comprised of faculty members, graduate students, and undergraduates across campus.</p>
+<section id="faculty-members" class="level2">
+<h2 class="anchored" data-anchor-id="faculty-members">Faculty members</h2>
+<ul>
+<li><a href="https://krhwagner.com/">Katherine Wagner</a></li>
+<li><a href="https://www.jonathanproctor.org/">Jonathan Proctor</a></li>
+<li><a href="https://www.patrickbaylis.com/">Patrick Baylis</a></li>
+<li><a href="https://sumeetgulati.landfood.ubc.ca/">Sumeet Gulati</a></li>
+</ul>
+</section>
+<section id="ph.d.-students" class="level2">
+<h2 class="anchored" data-anchor-id="ph.d.-students">Ph.D.&nbsp;students</h2>
+</section>
+<section id="masters-students" class="level2">
+<h2 class="anchored" data-anchor-id="masters-students">Masters students</h2>
+</section>
+<section id="undergraduate-students" class="level2">
+<h2 class="anchored" data-anchor-id="undergraduate-students">Undergraduate students</h2>
+<!-- TODO: Move file into research/ directory.-->
+<!-- TODO: Author(s) filed not displaying correctly (currently reads "Author") on page. -->
+<!-- Convert .bib citations into Quarto qmd directories and files automatically. Could write some code in R.-->
+<!-- https://ymlthis.r-lib.org/reference/bib2yml.html -->
+
 
 
 </section>
 
-</main> <!-- /main -->
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const icon = "";
@@ -220,7 +277,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-right">This page is built with ❤️ and <a href="https://quarto.org/">Quarto</a>.</div>
+    <div class="nav-footer-right">This page is built with ❤️ (and <a href="https://quarto.org/">Quarto</a>).</div>
   </div>
 </footer>
 

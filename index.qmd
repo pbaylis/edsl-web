@@ -15,3 +15,11 @@ The first mission of the group is to provide a community and a shared set of res
 The second mission is to more precisely define the first mission. 
 
 (It's a work in progress y'all.)
+
+<!-- TODO -->
+<!-- - Better/catchier one word name? -->
+<!-- - Include links to papers easily in metadata. -->
+<!-- - More generally, how can I put the YAML metadata into the header of documents. Most things seem to be hardcoded in. -->
+<!-- - Add more detail on other collaborators. -->
+<!-- - Add more detail on papers. How can we convert from a bib? -->
+<!--   - Seems relevant: https://quarto.org/docs/authoring/create-citeable-articles.html -->

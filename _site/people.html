@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>edsl-web - People</title>
+<title>Environmental Data Science Lab - People</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,6 +25,8 @@ ul.task-list{list-style: none;}
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -53,10 +55,40 @@ ul.task-list{list-style: none;}
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
-<meta name="twitter:title" content="edsl-web - People">
+<meta name="twitter:title" content="Environmental Data Science Lab - People">
 <meta name="twitter:description" content="The EDSL research group is comprised of faculty members, graduate students, and undergraduates across campus.">
 <meta name="twitter:card" content="summary">
 </head>
@@ -68,7 +100,7 @@ ul.task-list{list-style: none;}
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">edsl-web</span>
+    <span class="navbar-title">Environmental Data Science Lab</span>
   </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
@@ -98,16 +130,7 @@ ul.task-list{list-style: none;}
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#faculty-members" id="toc-faculty-members" class="nav-link active" data-scroll-target="#faculty-members">Faculty members</a></li>
-  <li><a href="#ph.d.-students" id="toc-ph.d.-students" class="nav-link" data-scroll-target="#ph.d.-students">Ph.D.&nbsp;students</a></li>
-  <li><a href="#masters-students" id="toc-masters-students" class="nav-link" data-scroll-target="#masters-students">Masters students</a></li>
-  <li><a href="#undergraduate-students" id="toc-undergraduate-students" class="nav-link" data-scroll-target="#undergraduate-students">Undergraduate students</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -129,28 +152,74 @@ ul.task-list{list-style: none;}
 </header>
 
 <p>The EDSL research group is comprised of faculty members, graduate students, and undergraduates across campus.</p>
-<section id="faculty-members" class="level2">
-<h2 class="anchored" data-anchor-id="faculty-members">Faculty members</h2>
-<ul>
-<li><a href="https://krhwagner.com/">Katherine Wagner</a></li>
-<li><a href="https://www.jonathanproctor.org/">Jonathan Proctor</a></li>
-<li><a href="https://www.patrickbaylis.com/">Patrick Baylis</a></li>
-<li><a href="https://sumeetgulati.landfood.ubc.ca/">Sumeet Gulati</a></li>
-</ul>
-</section>
-<section id="ph.d.-students" class="level2">
-<h2 class="anchored" data-anchor-id="ph.d.-students">Ph.D.&nbsp;students</h2>
-</section>
-<section id="masters-students" class="level2">
-<h2 class="anchored" data-anchor-id="masters-students">Masters students</h2>
-</section>
-<section id="undergraduate-students" class="level2">
-<h2 class="anchored" data-anchor-id="undergraduate-students">Undergraduate students</h2>
+<!-- Headshots are getting chopped. Why? -->
 
 
-</section>
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="faculty" data-listing-file-modified-sort="1670278522725" data-listing-reading-time-sort="0.035">
+<a href="./people/jonathan/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img src="./people/jonathan/jonathan.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Jonathan Proctor
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="faculty" data-listing-file-modified-sort="1670278507648" data-listing-reading-time-sort="0.035">
+<a href="./people/katherine/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img src="./people/katherine/katherine.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Katherine Wagner
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="faculty" data-listing-file-modified-sort="1670282154844" data-listing-reading-time-sort="0.04">
+<a href="./people/patrick/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img src="./people/patrick/patrick.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Patrick Baylis
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="faculty" data-listing-file-modified-sort="1670278445057" data-listing-reading-time-sort="0.035">
+<a href="./people/sumeet/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img src="./people/sumeet/sumeet.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Sumeet Gulati
+</h5>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const icon = "";

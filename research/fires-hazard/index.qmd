@@ -8,4 +8,8 @@ image: "Figure6.png"
 
 [Paper](https://www.aeaweb.org/articles?id=10.1257/app.20200662) $\cdot$ [NBER Working Paper](https://www.nber.org/papers/w26550.pdf)
 
-Abstract: This study measures the degree to which public expenditures on wildfire protection subsidize development in harm’s way. We use administrative data on firefighting expenditures to measure the causal effect of nearby homes on the amount spent to extinguish wildfires. We use these estimates in an actuarial calculation yielding geographically-differentiated expected implicit subsidies for homes across the Western U.S. The expected net present value of this subsidy can exceed 20% of home value, increases with fire hazard, and decreases surprisingly steeply with development density. We discuss potential behavioral responses by individuals and local governments using a simple economic model.
+::: {.callout-caution collapse="true"}
+## Abstract
+
+This study measures the degree to which public expenditures on wildfire protection subsidize development in harm’s way. We use administrative data on firefighting expenditures to measure the causal effect of nearby homes on the amount spent to extinguish wildfires. We use these estimates in an actuarial calculation yielding geographically-differentiated expected implicit subsidies for homes across the Western U.S. The expected net present value of this subsidy can exceed 20% of home value, increases with fire hazard, and decreases surprisingly steeply with development density. We discuss potential behavioral responses by individuals and local governments using a simple economic model.
+:::

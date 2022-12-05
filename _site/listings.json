@@ -12,5 +12,29 @@
       "/posts/post-with-code/index.html",
       "/posts/welcome/index.html"
     ]
+  },
+  {
+    "listing": "/research/research.html",
+    "items": [
+      "/research/buildingcodes/index.html",
+      "/research/fires-hazard/index.html"
+    ]
+  },
+  {
+    "listing": "/posts/posts.html",
+    "items": []
+  },
+  {
+    "listing": "/people/people.html",
+    "items": []
+  },
+  {
+    "listing": "/people.html",
+    "items": [
+      "/people/jonathan/index.html",
+      "/people/katherine/index.html",
+      "/people/patrick/index.html",
+      "/people/sumeet/index.html"
+    ]
   }
 ]

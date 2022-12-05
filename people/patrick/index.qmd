@@ -1,0 +1,13 @@
+---
+title: "Patrick Baylis"
+author: "Author"
+description: "Description"
+categories: [faculty]
+image: "patrick.jpg"
+---
+
+Patrick's bio.
+
+Links to Patrick's papers. [Building codes](http://localhost:3038/research/buildingcodes/)
+
+[E-mail Patrick](mailto:patrick.baylis@ubc.ca)

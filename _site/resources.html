@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Environmental Data Science Lab - UBC Environmental Data Science Lab</title>
+<title>edsl-web - Resource</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -56,8 +56,7 @@ ul.task-list{list-style: none;}
 
 
 <link rel="stylesheet" href="styles.css">
-<meta name="twitter:title" content="Environmental Data Science Lab - UBC Environmental Data Science Lab">
-<meta name="twitter:description" content="The UBC Environmental Data Science Lab (EDSL) is a collegial research group based out of the University of British Columbia.">
+<meta name="twitter:title" content="edsl-web - Resource">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -68,7 +67,7 @@ ul.task-list{list-style: none;}
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Environmental Data Science Lab</span>
+    <span class="navbar-title">edsl-web</span>
   </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
@@ -76,7 +75,7 @@ ul.task-list{list-style: none;}
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page">Home</a>
+    <a class="nav-link" href="./index.html">Home</a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./people.html">People</a>
@@ -102,7 +101,8 @@ ul.task-list{list-style: none;}
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#mission" id="toc-mission" class="nav-link active" data-scroll-target="#mission">Mission</a></li>
+  <li><a href="#other" id="toc-other" class="nav-link active" data-scroll-target="#other">Other</a></li>
+  <li><a href="#r-packages" id="toc-r-packages" class="nav-link" data-scroll-target="#r-packages">R Packages</a></li>
   </ul>
 </nav>
     </div>
@@ -111,7 +111,7 @@ ul.task-list{list-style: none;}
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">UBC Environmental Data Science Lab</h1>
+<h1 class="title">Resource</h1>
 </div>
 
 
@@ -125,14 +125,54 @@ ul.task-list{list-style: none;}
 
 </header>
 
-<p>The UBC Environmental Data Science Lab (EDSL) is a collegial research group based out of the University of British Columbia.</p>
-<p>Our projects ask how climate and related environmental hazards impact people, and how people can better respond to them.</p>
-<p>We (do our best to) answer these questions using the tools of applied economics and data science.</p>
-<section id="mission" class="level2">
-<h2 class="anchored" data-anchor-id="mission">Mission</h2>
-<p>The first mission of the group is to provide a community and a shared set of resources for community members UBC interested in questions about how people and the environment interact.</p>
-<p>The second mission is to more precisely define the first mission.</p>
-<p>(It’s a work in progress y’all.)</p>
+<section id="other" class="level3">
+<h3 class="anchored" data-anchor-id="other">Other</h3>
+<ul>
+<li><a href="Google%20Looker%20Studio">https://datastudio.google.com/u/0/</a></li>
+</ul>
+</section>
+<section id="r-packages" class="level3">
+<h3 class="anchored" data-anchor-id="r-packages">R Packages</h3>
+<ul>
+<li><p><a href="https://ropensci.r-universe.dev/ui#packages">ROpenSci Universe</a>: The ROpenSci list of packages includes many that facilitate access to interesting datasets.</p></li>
+<li><p>Programming</p>
+<ul>
+<li><a href="https://ropensci.r-universe.dev/ui#package:skimr">skimr</a>: Quick summary statistics.</li>
+<li><a href="https://ropensci.r-universe.dev/ui#package:charlatan">charlatan</a>: Make fake data, e.g., names.</li>
+<li><a href="https://ropensci.r-universe.dev/ui#package:bibtex">bibtex</a>: Parse a <code>.bib</code> file. (Might be useful for this website. There are other related packages, e.g., <a href="https://ropensci.r-universe.dev/ui#package:handlr">handlr.</a>)</li>
+<li><a href="https://ropensci.r-universe.dev/ui#package:parzer">parzer</a>: Parse messy latitudes and longitudes.</li>
+</ul></li>
+<li><p>Weather</p>
+<ul>
+<li><a href="https://docs.ropensci.org/weathercan/">weathercan</a>: R package to get ECCC weather data.</li>
+<li><a href="https://ropensci.r-universe.dev/ui#package:GSODR">GSODR</a>: One of a few packages for downloading Global Summary of the Day weather data.</li>
+<li><a href="https://cran.r-project.org/web/packages/rnoaa/index.html">rnoaa</a>: Client for many NOAA data sources.</li>
+<li><a href="https://cran.r-project.org/web/packages/stationaRy/index.html">stationaRy</a>: Hourly weather data from around the world.</li>
+<li><a href="https://ropensci.r-universe.dev/ui#package:prism">prism</a>: Access prism data.</li>
+<li><a href="https://ropensci.r-universe.dev/ui#package:chirps">Chirps and Chirts</a>: Global reanalysis weather data, 1983-2016.</li>
+</ul></li>
+<li><p>Disasters</p>
+<ul>
+<li><a href="https://ropensci.r-universe.dev/ui#package:rrricanes">rrricanes</a>: Hurricane data since 1998.</li>
+</ul></li>
+<li><p>Pollution</p>
+<ul>
+<li><a href="https://ropensci.r-universe.dev/ui#package:epair">epair</a>: Help with parsing various EPA datasets.</li>
+</ul></li>
+<li><p>Imagery</p>
+<ul>
+<li><a href="https://ropensci.r-universe.dev/ui#package:rsat">rsat</a>: Search, download, and process satellite imagery from several free sources.</li>
+<li><a href="https://ropensci.r-universe.dev/ui#package:rnaturalearth">rnaturalearth</a>: Natural earth imagery for mapping.</li>
+</ul></li>
+<li><p>Transport</p>
+<ul>
+<li><a href="https://ropensci.r-universe.dev/ui#package:bikedata">bikedata</a>: Public bicycle data.</li>
+</ul></li>
+<li><p>Spatial</p>
+<ul>
+<li><a href="https://ropensci.r-universe.dev/ui#package:geonames">geonames</a>: Access geonames.org API to get geography names.</li>
+</ul></li>
+</ul>
 
 
 </section>
@@ -220,7 +260,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-right">This page is built with ❤️ and <a href="https://quarto.org/">Quarto</a>.</div>
+    <div class="nav-footer-right">This page is built with ❤️ (and <a href="https://quarto.org/">Quarto</a>).</div>
   </div>
 </footer>
 
