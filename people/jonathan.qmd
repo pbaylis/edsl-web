@@ -2,10 +2,23 @@
 title: "Jonathan Proctor"
 categories: [faculty]
 image: "jonathan.jpg"
+about:
+  id: person-profile
+  image: "jonathan.jpg"
+  template: jolla
+  links:
+    - icon: journal-text
+      text: papers
+      href: research.html#category=jonathan
+    - icon: file-earmark-text
+      text: cv
+      href: https://www.jonathanproctor.org/blank-page-1
+    - icon: link
+      text: web
+      href: https://www.jonathanproctor.org/
+    - icon: envelope
+      text: email
+      href: "mailto:jproctor1@fas.harvard.edu"
 ---
 
-Jonathan's bio.
-
-Links to Jonathan's papers.
-
-Jonathan's contact info.
+Jonathan develops and applies new methods to empirically estimate anthropogenic impacts on climate and, in turn, on global socio-environmental systems. He's particularly fascinated by how light, water and temperature jointly determine crop growth and how high resolution imagery can be used to measure socio-environmental conditions.

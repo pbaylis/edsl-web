@@ -8,7 +8,7 @@ about:
   links:
     - icon: journal-text
       text: papers
-      href: research.html#category=patrick
+      href: "research.html#category=patrick"
     - icon: file-earmark-text
       text: cv
       href: https://www.patrickbaylis.com/pdf/Baylis_CV.pdf
