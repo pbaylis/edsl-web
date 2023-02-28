@@ -1,23 +1,21 @@
 ---
-title: "Research"
+pagetitle: "Research"
+toc: false
 listing:
-  contents: "research"
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: false
-  filter-ui: false
-  fields: [image, title, subtitle, author, date, categories]
-  field-display-names:
-    author: "Author(s)"
-page-layout: full
-title-block-banner: true
-date-format: YYYY
+  - id: articles
+    contents: "research/**.qmd"
+    template: ./ejs/article.ejs
+    categories: true
+    sort:
+      - "year desc"
+      - "title"
+    sort-ui: [title,author,publication,year]
+    filter-ui: [title,author,publication,year]
+    page-size: 10
+    field-display-names:  
+      publication: "Publication"
+      year: "Year"
 ---
 
-<!-- TODO: Move file into research/ directory.-->
-<!-- TODO: Author(s) filed not displaying correctly (currently reads "Author") on page. -->
-<!-- Convert .bib citations into Quarto qmd directories and files automatically. Could write some code in R.-->
-<!-- https://ymlthis.r-lib.org/reference/bib2yml.html -->
-
-Recent scholarly publications and work in progress from affiliated faculty and graduate students (will be) listed here.
+::: {#articles}
+:::

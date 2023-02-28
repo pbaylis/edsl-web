@@ -1,0 +1,29 @@
+---
+title: "Research"
+listing:
+  contents: "research"
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  fields: [image, title, subtitle, author, date, categories]
+  field-display-names:
+    author: "Author(s)"
+page-layout: full
+title-block-banner: true
+date-format: YYYY
+---
+
+<!-- Useful model here: https://affcom.ku.edu/ -->
+<!-- But, would like to display multiple authors - and be able to link to specific people? -->
+<!-- https://github.com/quarto-dev/quarto-cli/issues/1324#issuecomment-1252961320 -->
+
+<!-- TODO: Author(s) filed not displaying correctly (currently reads "Author", not "Author(s)") on page. -->
+<!-- Add rest of research from myself and coauthors to this page. -->
+<!-- At some point it would be nice to automate conversion from a .bib files into the YAML header required by Quarto's listings format. But we're not quite there yet: the current listings isn't set up to deal with multiple authors or family names. So we'd need to write a custom listings (https://quarto.org/docs/websites/website-listings-custom.html) to deal with this. Possible but a bit of a headache, particularly for the multiple authors thing. -->
+<!-- It's also unclear how I change what metadata actually gets shown on a page. Right now that seems fixed, so we'd need to figure that out. -->
+<!-- Related to the above, would like to include links in the metadata. -->
+
+
+Recent scholarly publications and work in progress from affiliated faculty and graduate students (will be) listed here.

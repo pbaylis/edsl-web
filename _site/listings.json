@@ -1,9 +1,26 @@
 [
   {
+    "listing": "/people.html",
+    "items": [
+      "/people/frederik.html",
+      "/people/jonathan.html",
+      "/people/katherine.html",
+      "/people/patrick.html",
+      "/people/sumeet.html"
+    ]
+  },
+  {
     "listing": "/research.html",
     "items": [
-      "/research/buildingcodes/index.html",
-      "/research/fires-hazard/index.html"
+      "/research/baylis-boomhower-codes.html",
+      "/research/baylis-boomhower-incidence.html"
+    ]
+  },
+  {
+    "listing": "/research-old.html",
+    "items": [
+      "/research/baylis-boomhower-codes.html",
+      "/research/baylis-boomhower-incidence.html"
     ]
   },
   {
@@ -11,30 +28,6 @@
     "items": [
       "/posts/post-with-code/index.html",
       "/posts/welcome/index.html"
-    ]
-  },
-  {
-    "listing": "/research/research.html",
-    "items": [
-      "/research/buildingcodes/index.html",
-      "/research/fires-hazard/index.html"
-    ]
-  },
-  {
-    "listing": "/posts/posts.html",
-    "items": []
-  },
-  {
-    "listing": "/people/people.html",
-    "items": []
-  },
-  {
-    "listing": "/people.html",
-    "items": [
-      "/people/jonathan/index.html",
-      "/people/katherine/index.html",
-      "/people/patrick/index.html",
-      "/people/sumeet/index.html"
     ]
   }
 ]

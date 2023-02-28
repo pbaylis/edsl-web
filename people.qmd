@@ -12,4 +12,4 @@ listing:
 
 The EDSL research group is comprised of faculty members, graduate students, and undergraduates across campus.
 
-<!-- Headshots are getting chopped. Why? -->
+<!-- https://quarto.org/docs/websites/website-about.html -->

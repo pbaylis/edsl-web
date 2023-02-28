@@ -5,6 +5,7 @@ website:
   title: "Environmental Data Science Lab"
   twitter-card: true
   navbar:
+    search: true
     left:
       - href: index.qmd
         text: Home

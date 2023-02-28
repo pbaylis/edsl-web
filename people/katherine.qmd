@@ -1,0 +1,11 @@
+---
+title: "Katherine Wagner"
+categories: [faculty]
+image: "katherine.jpg"
+url: https://krhwagner.com/
+---
+
+> Katherine is an Assistant Professor of Economics at the University of British Columbia. Her research focuses primarily on Environmental and Energy Economics and Public Finance. She uses a range of empirical tools to study questions related to environmental externalities, climate change, and natural resources. She is also a Research Affiliate of the CESifo Network.
+
+- Links to Katherine's papers
+- Personal [website](https://krhwagner.com/index)

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Research</title>
+<title>Environmental Data Science Lab - Research</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -63,20 +63,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-articles .list');
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-freeze','listing-title-block-banner','listing-title','listing-type','listing-author','listing-publication','listing-preprint','listing-toc','listing-categories','listing-path','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-year','listing-doi',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-image','listing-title','listing-subtitle','listing-author','listing-date','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-publication","listing-year"],
+      searchColumns: ["listing-title","listing-author","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-articles'] = new List('listing-articles', options);
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -93,7 +93,8 @@ ul.task-list li input[type="checkbox"] {
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
-<meta name="twitter:title" content="Research">
+<meta name="twitter:title" content="Environmental Data Science Lab - Research">
+<meta name="twitter:description" content="Recent scholarly publications and work in progress from affiliated faculty and graduate students (will be) listed here.">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -122,7 +123,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./research.html" aria-current="page">
+    <a class="nav-link" href="./research.html">
  <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
@@ -136,80 +137,130 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page-left">
+      <h1 class="title">Research</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
     <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="fires">fires <span class="quarto-category-count">(2)</span></div><div class="category" data-category="journal article">journal article <span class="quarto-category-count">(1)</span></div><div class="category" data-category="patrick">patrick <span class="quarto-category-count">(2)</span></div><div class="category" data-category="working paper">working paper <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
 
 
-<div id="listing-articles" class="quarto-listing quarto-listing-container-custom">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-articles-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-articles'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title" data-direction="asc">
-          Title
-        </option>
-         <option value="listing-author" data-direction="asc">
-          Author
-        </option>
-         <option value="listing-publication" data-direction="asc">
-          Publication
-        </option>
-         <option value="listing-year" data-direction="asc">
-          Year
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
+
+<!-- Useful model here: https://affcom.ku.edu/ -->
+<!-- But, would like to display multiple authors - and be able to link to specific people? -->
+<!-- https://github.com/quarto-dev/quarto-cli/issues/1324#issuecomment-1252961320 -->
+<!-- TODO: Author(s) filed not displaying correctly (currently reads "Author", not "Author(s)") on page. -->
+<!-- Add rest of research from myself and coauthors to this page. -->
+<!-- At some point it would be nice to automate conversion from a .bib files into the YAML header required by Quarto's listings format. But we're not quite there yet: the current listings isn't set up to deal with multiple authors or family names. So we'd need to write a custom listings (https://quarto.org/docs/websites/website-listings-custom.html) to deal with this. Possible but a bit of a headache, particularly for the multiple authors thing. -->
+<!-- It's also unclear how I change what metadata actually gets shown on a page. Right now that seems fixed, so we'd need to figure that out. -->
+<!-- Related to the above, would like to include links in the metadata. -->
+<p>Recent scholarly publications and work in progress from affiliated faculty and graduate students (will be) listed here.</p>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="patrick,fires,working paper" data-listing-file-modified-sort="1677559402968" data-listing-reading-time-sort="0.635">
+<div class="thumbnail">
+<a href="./research/baylis-boomhower-codes.html">
+<div class="thumbnail-image">
+
 </div>
-<ul class="pub-list list no-bullets">
-  <li data-index="0" data-categories="patrick,fires,working paper" data-listing-file-modified-sort="1677559402968" data-listing-reading-time-sort="0.635" class="no-bullets">
-    <span class="listing-title lead">Mandated vs. Voluntary Adaptation to Natural Disasters: The Case of U.S. Wildfires</span><br>
-    <span class="listing-author">Patrick Baylis, Judson Boomhower</span><br>
-    <span class="listing-publication fst-italic ">Working Paper</span>
-     <br>
-    <a href="./research/baylis-boomhower-codes.html" class="btn btn-primary">
-      Details
-    </a>
-    <a href="https://www.nber.org/papers/w29621" class="btn btn-light" target="_blank" rel="noopener noreferrer">
-      <i class="bi bi-file-earmark-text"></i> Working paper
-    </a>
-  </li>
-  <li data-index="1" data-categories="patrick,fires,journal article" data-listing-file-modified-sort="1677559406272" data-listing-reading-time-sort="0.635" class="no-bullets">
-    <span class="listing-title lead">The Economic Incidence of Wildfire Suppression in the United States</span><br>
-    <span class="listing-author">Patrick Baylis, Judson Boomhower</span><br>
-    <span class="listing-publication fst-italic ">American Economic Journal: Applied</span>
-     <span class="listing-year">(2023)</span>  <br>
-    <a href="./research/baylis-boomhower-incidence.html" class="btn btn-primary">
-      Details
-    </a>
-    <a href="https://doi.org/10.1257/app.20200662" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
-      DOI
-    </a>
-    <a href="https://www.nber.org/papers/w26550.pdf" class="btn btn-light" target="_blank" rel="noopener noreferrer">
-      <i class="bi bi-file-earmark-text"></i> Working paper
-    </a>
-  </li>
-</ul>
+</a><p><a href="./research/baylis-boomhower-codes.html"></a></p>
+</div>
+<div class="body">
+<a href="./research/baylis-boomhower-codes.html">
+<h3 class="no-anchor listing-title">
+Mandated vs.&nbsp;Voluntary Adaptation to Natural Disasters: The Case of U.S. Wildfires
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('patrick'); return false;">
+patrick
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('fires'); return false;">
+fires
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('working paper'); return false;">
+working paper
+</div>
+</div>
+<a href="./research/baylis-boomhower-codes.html"> </a>
+</div>
+<div class="metadata">
+<a href="./research/baylis-boomhower-codes.html">
+<div class="listing-author">
+Patrick Baylis, Judson Boomhower
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="patrick,fires,journal article" data-listing-file-modified-sort="1677559406272" data-listing-reading-time-sort="0.635">
+<div class="thumbnail">
+<a href="./research/baylis-boomhower-incidence.html">
+<div class="thumbnail-image">
+
+</div>
+</a><p><a href="./research/baylis-boomhower-incidence.html"></a></p>
+</div>
+<div class="body">
+<a href="./research/baylis-boomhower-incidence.html">
+<h3 class="no-anchor listing-title">
+The Economic Incidence of Wildfire Suppression in the United States
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('patrick'); return false;">
+patrick
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('fires'); return false;">
+fires
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('journal article'); return false;">
+journal article
+</div>
+</div>
+<a href="./research/baylis-boomhower-incidence.html"> </a>
+</div>
+<div class="metadata">
+<a href="./research/baylis-boomhower-incidence.html">
+<div class="listing-author">
+Patrick Baylis, Judson Boomhower
+</div>
+</a>
+</div>
+</div>
+</div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div>
-
-
-
-
-</main> <!-- /main -->
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
