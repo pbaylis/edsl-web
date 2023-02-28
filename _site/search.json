@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "people.html",
-    "href": "people.html",
-    "title": "People",
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Environmental Data Science Lab",
     "section": "",
-    "text": "The EDSL research group is comprised of faculty members, graduate students, and undergraduates across campus.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFrederik Noack\n\n\n\n\n\n\n\n\n\n\n\n\n\nJonathan Proctor\n\n\n\n\n\n\n\n\n\n\n\n\n\nKatherine Wagner\n\n\n\n\n\n\n\n\n\n\n\n\n\nPatrick Baylis\n\n\n\n\n\n\n\n\n\n\n\n\n\nSumeet Gulati\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n         \n          Publication\n        \n         \n          Year\n        \n     \n  \n    \n      \n      \n    \n\n\n  \n    Mandated vs. Voluntary Adaptation to Natural Disasters: The Case of U.S. Wildfires\n    Patrick Baylis, Judson Boomhower\n    Working Paper\n     \n    \n      Details\n    \n    \n       Working paper\n    \n  \n  \n    The Economic Incidence of Wildfire Suppression in the United States\n    Patrick Baylis, Judson Boomhower\n    American Economic Journal: Applied\n     (2023)  \n    \n      Details\n    \n    \n      DOI\n    \n    \n       Working paper\n    \n  \n\n\nNo matching items"
   },
   {
     "objectID": "research/baylis-boomhower-codes.html",
@@ -35,13 +35,6 @@
     "text": "Abstract\nThis study measures the degree to which public expenditures on wildfire protection subsidize development in harm’s way. We use administrative data on firefighting expenditures to measure the causal effect of nearby homes on the amount spent to extinguish wildfires. We use these estimates in an actuarial calculation yielding geographically differentiated expected implicit subsidies for homes across the western United States. The expected net present value of this subsidy can exceed 20 percent of home value, increases with fire hazard, and decreases surprisingly steeply with development density. We discuss potential behavioral responses by individuals and local governments using a simple economic model."
   },
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Environmental Data Science Lab",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n         \n          Publication\n        \n         \n          Year\n        \n     \n  \n    \n      \n      \n    \n\n\n  \n    Mandated vs. Voluntary Adaptation to Natural Disasters: The Case of U.S. Wildfires\n    Patrick Baylis, Judson Boomhower\n    Working Paper\n     \n    \n      Details\n    \n    \n       Working paper\n    \n  \n  \n    The Economic Incidence of Wildfire Suppression in the United States\n    Patrick Baylis, Judson Boomhower\n    American Economic Journal: Applied\n     (2023)  \n    \n      Details\n    \n    \n      DOI\n    \n    \n       Working paper\n    \n  \n\n\nNo matching items"
-  },
-  {
     "objectID": "posts/post-with-code/index.html",
     "href": "posts/post-with-code/index.html",
     "title": "Post With Code",
@@ -56,11 +49,11 @@
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
   {
-    "objectID": "research-old.html",
-    "href": "research-old.html",
-    "title": "Research",
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "People",
     "section": "",
-    "text": "Recent scholarly publications and work in progress from affiliated faculty and graduate students (will be) listed here.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMandated vs. Voluntary Adaptation to Natural Disasters: The Case of U.S. Wildfires\n\n\n\n\n\n\n\npatrick\n\n\nfires\n\n\nworking paper\n\n\n \n\n\n\n\nPatrick Baylis, Judson Boomhower\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Economic Incidence of Wildfire Suppression in the United States\n\n\n\n\n\n\n\npatrick\n\n\nfires\n\n\njournal article\n\n\n \n\n\n\n\nPatrick Baylis, Judson Boomhower\n\n\n\n\n\n\nNo matching items"
+    "text": "The EDSL research group is comprised of faculty members, graduate students, and undergraduates across campus.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJonathan Proctor\n\n\n\n\n\n\n\n\n\n\n\n\n\nKatherine Wagner\n\n\n\n\n\n\n\n\n\n\n\n\n\nPatrick Baylis\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "people/patrick.html",
@@ -74,21 +67,7 @@
     "href": "people/katherine.html",
     "title": "Katherine Wagner",
     "section": "",
-    "text": "Katherine is an Assistant Professor of Economics at the University of British Columbia. Her research focuses primarily on Environmental and Energy Economics and Public Finance. She uses a range of empirical tools to study questions related to environmental externalities, climate change, and natural resources. She is also a Research Affiliate of the CESifo Network.\n\n\nLinks to Katherine’s papers\nPersonal website"
-  },
-  {
-    "objectID": "people/frederik.html",
-    "href": "people/frederik.html",
-    "title": "Frederik Noack",
-    "section": "",
-    "text": "Frederik’s research focuses on the interaction of economic development and the environment. Specifically, he is interested how improved market access and property rights affect rural welfare and natural resources such as forests, fish stocks and biodiversity."
-  },
-  {
-    "objectID": "people/sumeet.html",
-    "href": "people/sumeet.html",
-    "title": "Sumeet Gulati",
-    "section": "",
-    "text": "Sumeet’s bio.\nLinks to Sumeet’s papers.\nSumeet’s contact info."
+    "text": "Katherine is an Assistant Professor of Economics at the University of British Columbia. Her research focuses primarily on Environmental and Energy Economics and Public Finance. She uses a range of empirical tools to study questions related to environmental externalities, climate change, and natural resources."
   },
   {
     "objectID": "people/jonathan.html",
@@ -96,6 +75,20 @@
     "title": "Jonathan Proctor",
     "section": "",
     "text": "Jonathan develops and applies new methods to empirically estimate anthropogenic impacts on climate and, in turn, on global socio-environmental systems. He’s particularly fascinated by how light, water and temperature jointly determine crop growth and how high resolution imagery can be used to measure socio-environmental conditions."
+  },
+  {
+    "objectID": "people/sumeet.xmd.html",
+    "href": "people/sumeet.xmd.html",
+    "title": "Sumeet Gulati",
+    "section": "",
+    "text": "Sumeet’s bio.\nLinks to Sumeet’s papers.\nSumeet’s contact info."
+  },
+  {
+    "objectID": "people/frederik.xmd.html",
+    "href": "people/frederik.xmd.html",
+    "title": "Frederik Noack",
+    "section": "",
+    "text": "Frederik’s research focuses on the interaction of economic development and the environment. Specifically, he is interested how improved market access and property rights affect rural welfare and natural resources such as forests, fish stocks and biodiversity."
   },
   {
     "objectID": "posts.html",
@@ -110,26 +103,5 @@
     "title": "Resource",
     "section": "",
     "text": "Other\n\nhttps://datastudio.google.com/u/0/\n\n\n\nR Packages\n\nROpenSci Universe: The ROpenSci list of packages includes many that facilitate access to interesting datasets.\nProgramming\n\nskimr: Quick summary statistics.\ncharlatan: Make fake data, e.g., names.\nbibtex: Parse a .bib file. (Might be useful for this website. There are other related packages, e.g., handlr.)\nparzer: Parse messy latitudes and longitudes.\n\nWeather\n\nweathercan: R package to get ECCC weather data.\nGSODR: One of a few packages for downloading Global Summary of the Day weather data.\nrnoaa: Client for many NOAA data sources.\nstationaRy: Hourly weather data from around the world.\nprism: Access prism data.\nChirps and Chirts: Global reanalysis weather data, 1983-2016.\n\nDisasters\n\nrrricanes: Hurricane data since 1998.\n\nPollution\n\nepair: Help with parsing various EPA datasets.\n\nImagery\n\nrsat: Search, download, and process satellite imagery from several free sources.\nrnaturalearth: Natural earth imagery for mapping.\n\nTransport\n\nbikedata: Public bicycle data.\n\nSpatial\n\ngeonames: Access geonames.org API to get geography names."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "UBC Environmental Data Science Lab",
-    "section": "",
-    "text": "The UBC Environmental Data Science Lab (EDSL) is a collegial research group based out of the University of British Columbia in Vancouver, BC, Canada."
-  },
-  {
-    "objectID": "index.html#projects",
-    "href": "index.html#projects",
-    "title": "UBC Environmental Data Science Lab",
-    "section": "Projects",
-    "text": "Projects\nOur projects ask how people impact the environment, how the environment impacts people, and how better policies and healthy markets can improve the interaction of the two. We (do our best to) answer these questions using the tools of applied economics and data science."
-  },
-  {
-    "objectID": "index.html#mission",
-    "href": "index.html#mission",
-    "title": "UBC Environmental Data Science Lab",
-    "section": "Mission",
-    "text": "Mission\nThe mission of the lab is to provide a community and a shared set of resources for researchers UBC whose work seeks to understand how people and the environment interact."
   }
 ]

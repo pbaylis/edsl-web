@@ -1,15 +1,5 @@
 [
   {
-    "listing": "/people.html",
-    "items": [
-      "/people/frederik.html",
-      "/people/jonathan.html",
-      "/people/katherine.html",
-      "/people/patrick.html",
-      "/people/sumeet.html"
-    ]
-  },
-  {
     "listing": "/research.html",
     "items": [
       "/research/baylis-boomhower-codes.html",
@@ -17,10 +7,11 @@
     ]
   },
   {
-    "listing": "/research-old.html",
+    "listing": "/people.html",
     "items": [
-      "/research/baylis-boomhower-codes.html",
-      "/research/baylis-boomhower-incidence.html"
+      "/people/jonathan.html",
+      "/people/katherine.html",
+      "/people/patrick.html"
     ]
   },
   {
