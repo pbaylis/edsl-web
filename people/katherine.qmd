@@ -4,7 +4,7 @@ categories: [faculty]
 image: "katherine.jpg"
 about:
   id: person-profile
-  image: "patrick.jpg"
+  image: "katherine.jpg"
   template: jolla
   links:
     - icon: journal-text
@@ -12,7 +12,7 @@ about:
       href: "research.html#category=katherine"
     - icon: file-earmark-text
       text: cv
-      href: https://www.patrickbaylis.com/pdf/Baylis_CV.pdf
+      href: https://krhwagner.com/cv/Katherine%20Wagner%20CV.pdf
     - icon: link
       text: web
       href: https://krhwagner.com/

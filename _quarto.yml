@@ -13,8 +13,8 @@ website:
         text: People
       - href: research.qmd
         text: Research
-      - href: posts.qmd
-        text: Posts
+      # - href: posts.qmd
+      #   text: Posts
   page-footer:  
     right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
 

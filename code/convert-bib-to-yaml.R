@@ -1,0 +1,34 @@
+# Convert a .bib file into a YAML file.
+# Not working as of Feb 2023.
+
+##### FIRST ATTEMPT WITH YMLTHIS ######
+
+# pacman::p_load(ymlthis)
+# I was hopeful that this would work, but it doesn't seem like it's an out of the box solution. I would need for the article.ejs to be smater.
+# bibfile = "~/Desktop/baylis.bib"
+# test = bib2yml(path = bibfile)
+
+##### SAMPLE EXPECTED OUTPUT ######
+# ---
+# title: "Mandated vs. Voluntary Adaptation to Natural Disasters: The Case of U.S. Wildfires"
+# type: "article"
+# author: ["Patrick Baylis", "Judson Boomhower"]
+# year: "2023"
+# publication: "Working Paper"
+# preprint: "https://www.nber.org/papers/w29621"
+# doi: "10.1257/app.20200662"
+# materials: "https://www.aeaweb.org/articles?id=10.1257/app.20200662"
+# toc: false
+# categories:
+#   - patrick
+#   - fires
+#   - working paper
+# ---
+#   
+# ## Citation
+#   
+# > Baylis, Patrick, and Judson Boomhower. "The economic incidence of wildfire suppression in the United States." American Economic Journal: Applied Economics 15, no. 1 (2023): 442-473.
+# 
+# ## Abstract
+# 
+# This study measures the degree to which public expenditures on wildfire protection subsidize development in harm's way. We use administrative data on firefighting expenditures to measure the causal effect of nearby homes on the amount spent to extinguish wildfires. We use these estimates in an actuarial calculation yielding geographically differentiated expected implicit subsidies for homes across the western United States. The expected net present value of this subsidy can exceed 20 percent of home value, increases with fire hazard, and decreases surprisingly steeply with development density. We discuss potential behavioral responses by individuals and local governments using a simple economic model.
