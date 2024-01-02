@@ -10,7 +10,7 @@ Our projects ask how people impact the environment, how the environment impacts 
 
 ## Mission
 
-The mission of the lab is to provide a community and a shared set of resources for researchers UBC whose work seeks to understand how people and the environment interact.
+The mission of the lab is to provide a community and a shared set of resources for researchers at UBC whose work seeks to understand how people and the environment interact.
 
 <!-- TODO -->
 <!-- - Better/catchier one word name? -->
